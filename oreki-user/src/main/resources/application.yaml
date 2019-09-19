@@ -1,0 +1,12 @@
+server:
+  port: 7000
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://116.62.124.177:3306/oreki_user?characterEncoding=utf8&useSSL=false
+    username: root
+    password: ywc03525975
+    driver-class-name: com.mysql.jdbc.Driver
